@@ -39,7 +39,17 @@ const Skill = () => {
               <Progress done="80" title="JAVASCRIPT" />
               <Progress done="90" title="REACT" />
             </div>
-            <div className="right"></div>
+            <div className="right mtop">
+              {data.map((val) => {
+                return (
+                  <>
+                    <h1>{val.tit}</h1>
+                    <p>{val.para}</p>
+                    <p>{val.para1}</p>
+                  </>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
