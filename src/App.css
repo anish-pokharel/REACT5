@@ -436,5 +436,18 @@ h3 {
   background-repeat: 20px;
   color: #fff;
   height: 100%;
-  /* width: 0; */
+
+}
+
+.skills .right {
+  padding: 0 50px;
+}
+
+.skills .right h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.skills .right p {
+  margin-bottom: 20px;
 }

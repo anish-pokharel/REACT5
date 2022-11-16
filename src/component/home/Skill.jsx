@@ -46,6 +46,7 @@ const Skill = () => {
                     <h1>{val.tit}</h1>
                     <p>{val.para}</p>
                     <p>{val.para1}</p>
+                    <buttton className="primary-btn">Hire Me</buttton>
                   </>
                 );
               })}
