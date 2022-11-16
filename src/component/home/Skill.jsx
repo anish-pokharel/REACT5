@@ -35,6 +35,9 @@ const Skill = () => {
           <div className="content flex">
             <div className="left topMargin">
               <Progress done="70" title="HTML" />
+              <Progress done="80" title="CSS" />
+              <Progress done="80" title="JAVASCRIPT" />
+              <Progress done="90" title="REACT" />
             </div>
             <div className="right"></div>
           </div>
