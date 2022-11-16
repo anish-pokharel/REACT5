@@ -397,3 +397,11 @@ h3 {
   opacity: 1;
   margin-bottom: 30px;
 }
+
+.skills {
+  padding: 50px 0;
+}
+
+.skills .heading {
+  text-align: center;
+}
