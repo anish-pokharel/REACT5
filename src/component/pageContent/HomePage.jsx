@@ -4,6 +4,7 @@ import About from "../home/about/About";
 import Home from "../home/homes/Home";
 import Service from "../home/services/Service";
 import Wrapper from "../home/Wrapper";
+import Skill from "../home/Skill";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <About />
       <Service />
       <Wrapper />
+      <Skill />
     </>
   );
 };
