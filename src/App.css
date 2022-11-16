@@ -430,3 +430,11 @@ h3 {
   font-size: 17px;
   color: #7f9cb5;
 }
+
+.progress-done {
+  background-color: #38d16a;
+  background-repeat: 20px;
+  color: #fff;
+  height: 100%;
+  /* width: 0; */
+}
