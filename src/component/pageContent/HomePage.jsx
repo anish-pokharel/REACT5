@@ -8,6 +8,7 @@ import Skill from "../home/Skill";
 import WrapperOne from "../home/WrapperOne";
 import WrapperTwo from "../home/WrapperTwo";
 import Footer from "../home/Footer";
+import Work from "../home/work/Work";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <Skill />
       <WrapperOne />
       <WrapperTwo />
+      <Work />
       <Footer />
     </>
   );
