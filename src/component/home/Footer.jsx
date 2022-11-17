@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="contaner grid1 ">
+        <div className="container grid1 ">
           <div className="box">
             <img src="./assets/logo.png" alt="" />
             <p>

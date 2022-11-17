@@ -478,45 +478,66 @@ h3 {
 }
 
 footer {
-  background: #000;
-
-}
-
-.contaner {
+  background-color: #08071c;
+  padding: 100px 0 0 0;
   color: #fff;
-
 }
 
-.box ul {
-  margin: 20px 20px;
-
+footer p {
+  color: #fff;
+  margin: 20px 0;
 }
 
-.box ul li {
-  padding: 5px;
+footer .socialIcon i {
+  background: transparent;
+  border: 1px solid #fff;
 }
 
-.contaner.box {
-  margin: 20px;
-  padding: 20px;
-
+footer h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
-.contaner .box h2 {
-  margin: 20px;
-
+footer li {
+  margin-bottom: 15px;
+  color: #fff;
 }
 
-.contaner .box .text p {
-  color: white;
-  opacity: 1;
-  padding: 20px;
-  /* margin: 20px; */
-}
-
-.contaner .box .text span {
+footer li::before {
+  content: ".";
+  font-size: 50px;
+  vertical-align: middle;
+  line-height: 10px;
+  margin-right: 20px;
   color: #38d16a;
-  padding: 20px;
-  /* margin: 20px; */
+}
 
+footer .box p {
+  margin: 0;
+  margin-top: 15px;
+}
+
+footer span {
+  color: #38d16a;
+  opacity: 1;
+}
+
+footer .icon {
+  margin-top: 20px;
+  display: flex;
+}
+
+footer .icon i {
+  color: #38d16a;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.legal {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  margin-top: 70px;
+  padding: 20px 0;
 }
